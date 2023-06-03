@@ -1,0 +1,177 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #5F0089;
+}
+.main-container{
+   display: flex;
+   /* justify-content: start; */
+}
+ .container-1{
+   display: flex;
+   flex-direction: column;
+   margin: 80px;
+}
+.clockLogo img{
+    height: 66px;
+    width: 180px;
+}
+.timecard{
+    width: 550px;
+    background-color: white;
+    border-radius: 20px;
+    color: #5F0089;
+    position: relative;
+    top: 20px;
+}
+.card{
+    margin: 10px;   
+}
+.card label{
+    font-size: 20px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+      
+}
+.card select{
+    width: 200px;
+    height: 30px;  
+    position: relative;
+    bottom: 10px;
+}
+.day-status{
+    width: 550px;
+    background-color: #8E53F0;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    position: relative;
+    top: 50px;
+    
+
+}
+.day-status h3{
+    font-family: 'Oswald', sans-serif;
+}
+.alarm-parent{
+    display: flex;
+    justify-content: start; 
+}
+
+.alarm button{
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(to right, #8E53F0,#FC5EFF);
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    top: 75px;
+}
+.day-routin{
+    width: 220px;
+    height: 90px;
+    margin-left: px;
+    background-color: #8E53F0;
+    color: #FC5EFF;
+    border-radius: 10px;
+    position: relative;
+    top: 75px;
+    left: 25px;
+    padding: 10px;
+}
+.container-2{
+    /* margin: 50px 100px; */
+    position: relative;
+    top: 80px;
+}
+.live-time{
+   
+}
+.time-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+    color: #9140B5;
+    z-index: 6;
+}
+.time-card .card1{
+    width: 80px;
+    text-align: center;
+    background-image: url(./time.png);
+    padding: 20px;
+    z-index: 7;
+}
+.time-card .card2{
+    background-image: url(./am.png);
+    width: 80px;
+    padding: 27px;
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 10px;
+}
+.time-card .colon1{
+    font-size: 50px;
+    text-align: center;
+    z-index: 9;
+}
+.box1{
+    width: 400px;
+    height: 20px;
+    background-color: #F6E2FF;
+    border-radius: 10px;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    z-index: -1;
+    
+}
+.box2{
+    width: 300px;
+    height: 20px;
+    background-color: #F6E2FF;
+    border-radius: 10px;
+    position: absolute;
+    /* margin: 100px; */
+    top: 100px;
+    left: 80px;
+    z-index: -1;
+
+}
+.grab-breakfast{
+    width: 500px;
+    background-color: white;
+    color: #8E53F0;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+.girl-pic img{
+    /* background-image: url(./image.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:480px) and (min-width:320px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
